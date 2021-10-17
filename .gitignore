@@ -1,0 +1,15 @@
+Unity/NinjaGirl/Library
+Unity/NinjaGirl/Logs
+Unity/NinjaGirl/obj
+Unity/NinjaGirl/Temp
+Unity/NinjaGirl/UserSettings
+Unity/NinjaGirl/.vs/
+Unity/NinjaGirl/bin
+ExportedObj/
+*.suo
+*.tmp
+*.user
+*.VC.db
+!/Assets/**/*.meta
+
+
