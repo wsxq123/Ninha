@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
     //Rigibody的計算都要放在這裏
     private void FixedUpdate()
     {
+        //偵測鍵盤左右跟上下
         float a = Input.GetAxisRaw("Horizontal");
         float b = Input.GetAxisRaw("Vertical");
 
