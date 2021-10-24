@@ -13,3 +13,6 @@ ExportedObj/
 !/Assets/**/*.meta
 
 
+Unity/NinjaGirl/.vsconfig
+*.csproj
+*.sln
