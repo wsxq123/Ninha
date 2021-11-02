@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    float playerSpeed = 5;
-    float jumpForce = 20;
+    float playerSpeed = 10;
+    public float jumpForce = 20;
 
     Rigidbody2D myRigibody;
 
@@ -39,6 +39,11 @@ public class Player : MonoBehaviour
         {
             isJumpPressed = true;
             canJump = false;
+        }
+        //偵測按建T
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            myAnimate.SetTrigger("Attack");
         }
     }
 
